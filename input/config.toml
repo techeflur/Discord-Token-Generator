@@ -1,0 +1,27 @@
+License = "license"
+Debug = false
+Workers = 25
+
+[Captcha]
+MaxFetchResult = 10
+HcoptchaKey = "captcha-key"
+CapsolverKey = ""
+Solver = "Hcoptcha"
+
+[Token]
+DelayBeforeCheckingIFLocked = 30
+AddPfp = true
+AddBio = true
+AddPronouns = true
+CheckIfFlagged = true
+JoinServer = false
+Invite = ""
+
+[Email]
+AddEmail = false
+KopeechkaKey = ""
+Domain = "outlook"
+EmailTimeout = 500
+
+[Proxy]
+UseSession = true
